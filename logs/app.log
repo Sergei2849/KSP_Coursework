@@ -1,0 +1,13 @@
+2026-06-08 00:03:08 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 00:04:31 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 00:07:26 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 00:48:42 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 00:49:19 [INFO] Вход пользователя: id=2 email=mechanic@engine.local role=mechanic
+2026-06-08 00:49:48 [INFO] Вход пользователя: id=3 email=client@engine.local role=client
+2026-06-08 14:33:18 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 14:36:20 [INFO] Вход пользователя: id=2 email=mechanic@engine.local role=mechanic
+2026-06-08 14:36:47 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 14:37:05 [INFO] Вход пользователя: id=3 email=client@engine.local role=client
+2026-06-08 14:38:36 [INFO] Вход пользователя: id=2 email=mechanic@engine.local role=mechanic
+2026-06-08 14:39:15 [INFO] Вход пользователя: id=1 email=admin@engine.local role=admin
+2026-06-08 14:43:20 [INFO] Вход пользователя: id=2 email=mechanic@engine.local role=mechanic

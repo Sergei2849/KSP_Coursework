@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="index.html">Engine Service</a>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="engines.html">Двигатели</a>
+            <a href="parts.html">Детали</a>
+            <a href="requests.html">Заявки</a>
+            <a href="stats.html" data-staff>Статистика</a>
+            <a href="logs.html" data-admin>Логи</a>
+            <a href="login.html">Вход</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section class="panel">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Аналитика</p>
+                    <h1>Статистика системы</h1>
+                </div>
+                <button id="refreshStats" class="button" type="button">Обновить</button>
+            </div>
+
+            <div id="statsCards" class="stats-grid"></div>
+
+            <div class="two-column stats-columns">
+                <section>
+                    <h2>Статусы заявок</h2>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Статус</th>
+                                    <th>Количество</th>
+                                </tr>
+                            </thead>
+                            <tbody id="statusStatsTable"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Двигатели по активности</h2>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Двигатель</th>
+                                    <th>Детали</th>
+                                    <th>Заявки</th>
+                                </tr>
+                            </thead>
+                            <tbody id="engineStatsTable"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <section>
+                <h2>Последние действия</h2>
+                <ul id="recentActionsList" class="logs-list"></ul>
+            </section>
+
+            <p id="statsMessage" class="message"></p>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

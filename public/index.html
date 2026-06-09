@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Учет двигателей</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="index.html">Engine Service</a>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="engines.html">Двигатели</a>
+            <a href="parts.html">Детали</a>
+            <a href="requests.html">Заявки</a>
+            <a href="stats.html" data-staff>Статистика</a>
+            <a href="logs.html" data-admin>Логи</a>
+            <a href="login.html">Вход</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <section class="hero-text">
+            <p class="eyebrow">Курсовая работа по КСП</p>
+            <h1>Информационная система учета двигателей и заявок на обслуживание</h1>
+            <p>Приложение хранит справочник двигателей, деталей и сервисных заявок, разделяет роли пользователей и записывает важные действия в журнал.</p>
+            <div class="hero-actions">
+                <a class="button primary" href="login.html">Войти</a>
+                <a class="button" href="requests.html">Открыть заявки</a>
+            </div>
+        </section>
+        <section class="dashboard-strip" aria-label="Возможности системы">
+            <article>
+                <strong>3 роли</strong>
+                <span>Администратор, механик и клиент</span>
+            </article>
+            <article>
+                <strong>6 таблиц</strong>
+                <span>PostgreSQL-схема с внешними ключами</span>
+            </article>
+            <article>
+                <strong>Email</strong>
+                <span>Проверка при регистрации и входе</span>
+            </article>
+        </section>
+    </main>
+
+    <section class="content-grid">
+        <article>
+            <h2>Двигатели</h2>
+            <p>Модель, тип, мощность, объем, серийный номер и описание.</p>
+        </article>
+        <article>
+            <h2>Детали</h2>
+            <p>Справочник деталей по каждому двигателю с состоянием и примечаниями.</p>
+        </article>
+        <article>
+            <h2>Заявки</h2>
+            <p>Клиент или механик создает заявку, администратор меняет статус.</p>
+        </article>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
